@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Weather Update</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     
+   <form name="weatherClient" method="post" action="WeatherClientServlet">
+       <h1>Demonstration Web Service Client (WSDL) </h1>  
+       <h2>using CDYNE.com's Weather Web Service</h2>
+       
+     <p>Enter the 5 digit Zip Code for the Weather Report:</p>
+     <p>
+     <p><input type="text" name="zip">
+     <p>
+      
+     <input type="submit" value="Current Weather Report" name="currentWeatherButton">
+     <input type="submit" value="7 Day Weather Forcast" name="sevenDayForcastButton">
+     <input type="submit" value="Table Of Weather Conditions" name="weatherConditionsTableButton">
+   </form>
+        
+    </body>
+</html>
